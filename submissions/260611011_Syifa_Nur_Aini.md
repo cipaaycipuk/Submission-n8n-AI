@@ -14,7 +14,7 @@
 | Pertemuan | Topik Tugas | Tautan File Workflow (.json) | Bukti Eksekusi (Screenshot) | Status |
 | :---: | :--- | :---: | :---: | :---: |
 | **P1** | Pengenalan n8n & Workflow Automation Dasar | [P1_Syifa_Nur_Aini.json](https://github.com/cipaaycipuk/GDGoC-n8n-StudyJam/blob/main/Pertemuan-01/P1_Syifa_Nur_Aini.json) | [Bukti 1](https://github.com/cipaaycipuk/GDGoC-n8n-StudyJam/blob/main/Pertemuan-01/P1_Syifa_Nur_Aini_1.png) • [Bukti 2](https://github.com/cipaaycipuk/GDGoC-n8n-StudyJam/blob/main/Pertemuan-01/P1_Syifa_Nur_Aini_2.png) • [Bukti 3](https://github.com/cipaaycipuk/GDGoC-n8n-StudyJam/blob/main/Pertemuan-01/P1_Syifa_Nur_Aini_3.png) | Selesai |
-| **P2** | Webhook Triggers & Data Transformation | Belum | Belum | Belum |
+| **P2** | Integrasi AI Gemini & Webhook Response | [P2_260611011_Syifa_Nur_Aini.json](https://github.com/cipaaycipuk/GDGoC-n8n-StudyJam/blob/main/Pertemuan-02/P2_260611011_Syifa_Nur_Aini.json) | [Bukti 1](https://github.com/cipaaycipuk/GDGoC-n8n-StudyJam/blob/main/Pertemuan-02/P2_Syifa_Nur_Aini.png) | Selesai |
 | **P3** | Advanced API Integration & Error Handling | Belum | Belum | Belum |
 | **P4** | AI Agent & LLM Chain Automation di n8n | Belum | Belum | Belum |
 | **P5** | Capstone Final Project: Smart Autonomous AI | Belum | Belum | Belum |
@@ -22,9 +22,9 @@
 ---
 
 ## 💡 Ringkasan & Solusi Otomasi (Workflow Highlights)
-- **Tujuan Workflow**: Menerima input data pesan dan nama dari Hoppscotch melalui Webhook, mengolah data field di n8n, lalu mengembalikan balasan pesan dinamis.
-- **Node Kunci yang Digunakan**: Webhook Node, Edit Fields Node, Respond to Webhook Node.
-- **Logika Alur Kerja**: Data JSON dikirim dari Hoppscotch via HTTP POST ke URL Webhook, node Edit Fields menyusun ekspresi variabel dinamis, dan node Respond to Webhook mengirimkan respon 200 OK kembali ke Hoppscotch.
+- **Tujuan Workflow**: Menerima input data dari Hoppscotch via Webhook, mengolah prompt menggunakan AI Google Gemini, lalu mengembalikan balasan sapaan dinamis secara otomatis.
+- **Node Kunci yang Digunakan**: Webhook Node, Edit Fields Node, Google Gemini Node (Message a model), dan Respond to Webhook Node.
+- **Logika Alur Kerja**: Data JSON (Nama dan Hobi) dikirim dari Hoppscotch ke Webhook, disusun menjadi prompt di Edit Fields, diproses oleh model Gemini Flash untuk menghasilkan respons AI, lalu dikirim kembali ke pengguna melalui Respond to Webhook.
 
 ---
 
