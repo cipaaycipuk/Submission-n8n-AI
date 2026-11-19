@@ -24,8 +24,7 @@ Halaman ini mencatat seluruh peserta yang telah berhasil menyelesaikan tugas dan
 | 8 | Abiyyu Amanullah | [@abiyyumnllh](https://github.com/abiyyumnllh) | [submissions/1257050052_Abiyyu_Amanullah.md](submissions/1257050052_Abiyyu_Amanullah.md) | Verified |
 | 9 | ZAIDAN SALMAN FIRDAUS | [@salmannfirdausss](https://github.com/salmannfirdausss) | [submissions/10125301_Zaidan_Salman_Firdaus.md](submissions/10125301_Zaidan_Salman_Firdaus.md) | Verified |
 | 10 | Ariel Ponseka | [@imrealll](https://github.com/imrealll) | [submissions/10125040_Ariel_Ponseka.md](submissions/10125040_Ariel_Ponseka.md) | Verified |
-| 11 | Dyaksa | - | [submissions/240611038_Dyaksa.md](submissions/240611038_Dyaksa.md) | Verified |
-| 12 | Dyaksa | [@xdyaksa](https://github.com/xdyaksa) | [submissions/10121001_Dyaksa.md](submissions/10121001_Dyaksa.md) | Verified |
+| 11 | Dyaksa | [@xdyaksa](https://github.com/xdyaksa) | [submissions/10121001_Dyaksa.md](submissions/10121001_Dyaksa.md) | Verified |
 
 ---
 
